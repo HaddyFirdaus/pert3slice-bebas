@@ -1,0 +1,28 @@
+^C:\USERS\HADY\DOCUMENTS\FLUTTER\PERT3TUGAS\BUILD\WINDOWS\CMAKEFILES\69836ADDB29FAEEECA6831F352AECBA2\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=D:\src\flutter PROJECT_DIR=C:\Users\HADY\Documents\Flutter\pert3tugas FLUTTER_ROOT=D:\src\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\HADY\Documents\Flutter\pert3tugas\windows\flutter\ephemeral PROJECT_DIR=C:\Users\HADY\Documents\Flutter\pert3tugas FLUTTER_TARGET=C:\Users\HADY\Documents\Flutter\pert3tugas\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\HADY\Documents\Flutter\pert3tugas\.dart_tool\package_config.json D:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HADY\DOCUMENTS\FLUTTER\PERT3TUGAS\BUILD\WINDOWS\CMAKEFILES\8A80B751EA9A66EE64C071185612C5C5\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HADY\DOCUMENTS\FLUTTER\PERT3TUGAS\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/HADY/Documents/Flutter/pert3tugas/windows -BC:/Users/HADY/Documents/Flutter/pert3tugas/build/windows --check-stamp-file C:/Users/HADY/Documents/Flutter/pert3tugas/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
